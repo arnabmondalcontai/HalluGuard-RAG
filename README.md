@@ -3,8 +3,8 @@ title: HalluGuard RAG
 emoji: 🛡️
 colorFrom: indigo
 colorTo: purple
-sdk: docker
-app_port: 7860
+sdk: gradio
+sdk_version: 4.37.2
 pinned: true
 license: mit
 short_description: Real-Time Hallucination Detection & Mitigation for RAG
