@@ -1,3 +1,15 @@
+---
+title: HalluGuard RAG
+emoji: 🛡️
+colorFrom: indigo
+colorTo: purple
+sdk: docker
+app_port: 7860
+pinned: true
+license: mit
+short_description: Real-Time Hallucination Detection & Mitigation for RAG
+---
+
 # HalluGuard: Real-Time Hallucination Detection and Mitigation for RAG Systems
 
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)
