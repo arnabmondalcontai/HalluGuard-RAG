@@ -1,0 +1,59 @@
+% TikZ Architecture Diagram for HalluGuard
+% To be \input{} from halluguard_paper.tex
+\tikzstyle{block} = [rectangle, draw, fill=blue!8, text centered,
+    minimum height=2.4em, minimum width=6.5em, rounded corners=3pt,
+    font=\small]
+\tikzstyle{decision} = [diamond, draw, fill=orange!15, text centered,
+    minimum height=2em, aspect=2.2, font=\small]
+\tikzstyle{tier} = [rectangle, draw, fill=green!10, text centered,
+    minimum height=2.2em, minimum width=7em, rounded corners=3pt,
+    font=\small]
+\tikzstyle{output} = [rectangle, draw, fill=gray!15, text centered,
+    minimum height=2.2em, minimum width=6em, rounded corners=3pt,
+    font=\small]
+\tikzstyle{arrow} = [-{Stealth[length=2.5mm]}, thick]
+
+\begin{tikzpicture}[node distance=1.1cm and 1.2cm]
+    % Main pipeline (left to right)
+    \node[block] (query) {User Query};
+    \node[block, right=of query] (retriever) {Hybrid Retriever\\{\scriptsize Dense + BM25 + RRF}};
+    \node[block, right=of retriever] (generator) {LLM Generator\\{\scriptsize Llama-3-8B}};
+    \node[block, right=of generator] (detector) {Ensemble Detector\\{\scriptsize NLI + Emb + Judge}};
+    \node[decision, right=1.4cm of detector] (decision) {$H > 0.5$?};
+
+    % No branch (direct output)
+    \node[output, above=1.0cm of decision] (output_no) {Final Response};
+
+    % Yes branch — router tiers (below)
+    \node[block, below=1.2cm of decision] (router) {Confidence Router};
+    \node[tier, below left=0.9cm and 0.8cm of router] (tier1) {Query Rewrite\\{\scriptsize $0.5 < H < 0.65$}};
+    \node[tier, below=0.9cm of router] (tier2) {Reranking\\{\scriptsize $0.65 \leq H < 0.80$}};
+    \node[tier, below right=0.9cm and 0.8cm of router] (tier3) {Self-Reflection\\{\scriptsize $H \geq 0.80$}};
+
+    % Corrected output
+    \node[output, below=1.0cm of tier2] (output_yes) {Corrected Response};
+
+    % Arrows — main flow
+    \draw[arrow] (query) -- (retriever);
+    \draw[arrow] (retriever) -- (generator);
+    \draw[arrow] (generator) -- (detector);
+    \draw[arrow] (detector) -- (decision);
+
+    % Decision branches
+    \draw[arrow] (decision) -- node[right, font=\scriptsize] {No} (output_no);
+    \draw[arrow] (decision) -- node[right, font=\scriptsize] {Yes} (router);
+
+    % Router to tiers
+    \draw[arrow] (router) -- (tier1);
+    \draw[arrow] (router) -- (tier2);
+    \draw[arrow] (router) -- (tier3);
+
+    % Tiers to output
+    \draw[arrow] (tier1) -- (output_yes);
+    \draw[arrow] (tier2) -- (output_yes);
+    \draw[arrow] (tier3) -- (output_yes);
+
+    % Explainer module (optional annotation)
+    \node[block, fill=yellow!12, above=1.0cm of detector, minimum width=6em] (explainer) {Claim-Level\\Explainer};
+    \draw[-{Stealth[length=2mm]}, dashed, thick, gray] (detector) -- (explainer);
+\end{tikzpicture}

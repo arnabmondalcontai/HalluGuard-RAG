@@ -1,0 +1,56 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.9, pytest-9.1.1, pluggy-1.6.0 -- /Users/arnabmondal/Desktop/Rag conntrol/halluguard/.venv/bin/python3.13
+cachedir: .pytest_cache
+rootdir: /Users/arnabmondal/Desktop/Rag conntrol/halluguard
+plugins: anyio-4.14.0, langsmith-0.9.1
+collecting ... collected 35 items
+
+tests/test_detector.py::TestNLIDetector::test_nli_detector_faithful PASSED [  2%]
+tests/test_detector.py::TestNLIDetector::test_nli_detector_hallucinated PASSED [  5%]
+tests/test_detector.py::TestNLIDetector::test_nli_detector_empty_response PASSED [  8%]
+tests/test_detector.py::TestNLIDetector::test_nli_detector_empty_context PASSED [ 11%]
+tests/test_detector.py::TestNLIDetector::test_nli_detector_detailed PASSED [ 14%]
+tests/test_detector.py::TestEmbeddingDetector::test_embedding_faithful PASSED [ 17%]
+tests/test_detector.py::TestEmbeddingDetector::test_embedding_hallucinated PASSED [ 20%]
+tests/test_detector.py::TestEmbeddingDetector::test_sentence_level_score PASSED [ 22%]
+tests/test_detector.py::TestEnsembleDetector::test_ensemble_weighted_average PASSED [ 25%]
+tests/test_detector.py::TestEnsembleDetector::test_threshold_detection PASSED [ 28%]
+tests/test_detector.py::TestEnsembleDetector::test_threshold_faithful PASSED [ 31%]
+tests/test_detector.py::TestEnsembleDetector::test_ensemble_returns_all_keys PASSED [ 34%]
+tests/test_explainer.py::test_faithful_sentence_no_explanation PASSED    [ 37%]
+tests/test_explainer.py::test_hallucinated_sentence_gets_explanation PASSED [ 40%]
+tests/test_explainer.py::test_highlight_marks_hallucinations PASSED      [ 42%]
+tests/test_explainer.py::test_summary_counts_correct PASSED              [ 45%]
+tests/test_multi_turn.py::test_single_turn_no_history PASSED             [ 48%]
+tests/test_multi_turn.py::test_consistent_turns_high_score PASSED        [ 51%]
+tests/test_multi_turn.py::test_contradicting_entity_lowers_score PASSED  [ 54%]
+tests/test_multi_turn.py::test_reset_clears_everything PASSED            [ 57%]
+tests/test_multi_turn.py::test_combined_score_above_threshold PASSED     [ 60%]
+tests/test_pipeline.py::TestRAGPipeline::test_pipeline_returns_required_keys PASSED [ 62%]
+tests/test_pipeline.py::TestRAGPipeline::test_pipeline_output_types PASSED [ 65%]
+tests/test_pipeline.py::TestRAGPipeline::test_router_triggers_on_high_score PASSED [ 68%]
+tests/test_pipeline.py::TestRAGPipeline::test_router_tier_selection PASSED [ 71%]
+tests/test_pipeline.py::TestRAGPipeline::test_latency_tracked PASSED     [ 74%]
+tests/test_pipeline.py::TestRAGPipeline::test_detection_only_mode PASSED [ 77%]
+tests/test_pipeline.py::TestRAGPipeline::test_pipeline_handles_errors_gracefully PASSED [ 80%]
+tests/test_retriever.py::TestHybridRetriever::test_add_documents PASSED  [ 82%]
+tests/test_retriever.py::TestHybridRetriever::test_add_documents_empty_raises PASSED [ 85%]
+tests/test_retriever.py::TestHybridRetriever::test_add_documents_mismatched_lengths PASSED [ 88%]
+tests/test_retriever.py::TestHybridRetriever::test_retrieve_returns_documents PASSED [ 91%]
+tests/test_retriever.py::TestHybridRetriever::test_retrieve_empty_index PASSED [ 94%]
+tests/test_retriever.py::TestHybridRetriever::test_retrieve_relevance PASSED [ 97%]
+tests/test_retriever.py::TestHybridRetriever::test_document_has_score_metadata PASSED [100%]
+
+=============================== warnings summary ===============================
+tests/test_detector.py::TestNLIDetector::test_nli_detector_faithful
+tests/test_detector.py::TestNLIDetector::test_nli_detector_faithful
+tests/test_detector.py::TestNLIDetector::test_nli_detector_faithful
+tests/test_detector.py::TestNLIDetector::test_nli_detector_faithful
+tests/test_detector.py::TestNLIDetector::test_nli_detector_faithful
+tests/test_detector.py::TestNLIDetector::test_nli_detector_faithful
+tests/test_detector.py::TestNLIDetector::test_nli_detector_faithful
+  /Users/arnabmondal/Desktop/Rag conntrol/halluguard/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 35 passed, 7 warnings in 16.75s ========================

@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Main Evaluation Results on Benchmark Datasets}
+\label{tab:main_results}
+\begin{tabular}{lccccc}
+\hline
+\textbf{Method} & \textbf{Halluc%} & \textbf{Faithfulness} & \textbf{AUROC} & \textbf{F1} & \textbf{p95 Latency} \\
+\hline
+Baseline RAG & 58.2\% & 0.4227 & 0.7482 & — & 125.6ms \\
+NLI detector only & 57.0\% & 0.4312 & 0.7800 & 0.7014 & 103.9ms \\
+Embedding detector only & — & — & — & — & — \\
+LLM Judge only & — & — & — & — & — \\
+Ensemble (no router) & 27.0\% & 0.6004 & 0.6522 & 0.4238 & 66209.4ms \\
+\textbf{HalluGuard — full system} & \textbf{39.0\%} & \textbf{0.5712} & \textbf{0.6474} & \textbf{0.5063} & \textbf{15266.5ms} \\
+\hline
+\end{tabular}
+\end{table}

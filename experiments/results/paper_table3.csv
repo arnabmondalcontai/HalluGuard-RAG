@@ -1,0 +1,4 @@
+"Domain","Halluc %","Faithfulness","AUROC","Latency ms"
+"General (HaluEval)","39.0%","0.5712","0.6474","38091.9"
+"Medical (MedQA)","10.0%","0.5979","0.6136","15082.2"
+"Legal","51.0%","0.4974","0.5020","42751.9"

@@ -1,0 +1,802 @@
+[
+  {
+    "query": "Does the board's decision to acquire a competitor satisfy the fiduciary duty under the business judgment rule?",
+    "context": [
+      "The board shall act in good faith and in the best interests of the corporation. The business judgment rule protects directors from liability for decisions made in good faith, with due care, and on an informed basis."
+    ],
+    "response": "Yes, the decision is protected by the business judgment rule because it was made in good faith, with due care, and on an informed basis.",
+    "label": 0
+  },
+  {
+    "query": "Does the board's decision to acquire a competitor satisfy the fiduciary duty under the business judgment rule?",
+    "context": [
+      "The board shall act in good faith and in the best interests of the corporation. The business judgment rule protects directors from liability for decisions made in good faith, with due care, and on an informed basis."
+    ],
+    "response": "No, because the business judgment rule requires unanimous board approval for acquisitions.",
+    "label": 1
+  },
+  {
+    "query": "What must a director do if they stand to benefit personally from a corporate transaction?",
+    "context": [
+      "A director who stands to benefit personally from a transaction must disclose the conflict and may be removed from the voting process."
+    ],
+    "response": "The director must disclose the conflict and recuse themselves from voting on the transaction.",
+    "label": 0
+  },
+  {
+    "query": "What must a director do if they stand to benefit personally from a corporate transaction?",
+    "context": [
+      "A director who stands to benefit personally from a transaction must disclose the conflict and may be removed from the voting process."
+    ],
+    "response": "The director can still vote if the transaction is above a certain monetary threshold.",
+    "label": 1
+  },
+  {
+    "query": "Under Delaware law, to whom does the fiduciary duty of loyalty apply?",
+    "context": [
+      "Under Section 8(a) of the Delaware General Corporation Law, directors owe a fiduciary duty of loyalty to the corporation and its shareholders."
+    ],
+    "response": "Directors owe the duty of loyalty to the corporation and its shareholders.",
+    "label": 0
+  },
+  {
+    "query": "Under Delaware law, to whom does the fiduciary duty of loyalty apply?",
+    "context": [
+      "Under Section 8(a) of the Delaware General Corporation Law, directors owe a fiduciary duty of loyalty to the corporation and its shareholders."
+    ],
+    "response": "The duty of loyalty applies only to officers.",
+    "label": 1
+  },
+  {
+    "query": "When does the business judgment rule apply to a board decision?",
+    "context": [
+      "The court applies the business judgment rule only when the decision is material to the corporation's interests."
+    ],
+    "response": "It applies only to decisions that are material to the corporation's interests.",
+    "label": 0
+  },
+  {
+    "query": "When does the business judgment rule apply to a board decision?",
+    "context": [
+      "The court applies the business judgment rule only when the decision is material to the corporation's interests."
+    ],
+    "response": "It applies to all decisions, regardless of materiality.",
+    "label": 1
+  },
+  {
+    "query": "What is the board's responsibility regarding audited financial statements?",
+    "context": [
+      "The board must review audited financial statements and approve them before distribution to shareholders."
+    ],
+    "response": "The board must review and approve the audited financial statements before distribution.",
+    "label": 0
+  },
+  {
+    "query": "What is the board's responsibility regarding audited financial statements?",
+    "context": [
+      "The board must review audited financial statements and approve them before distribution to shareholders."
+    ],
+    "response": "The board only needs to approve if there is a material adverse change.",
+    "label": 1
+  },
+  {
+    "query": "What is required of board members regarding meeting documents?",
+    "context": [
+      "Board members must attend meetings and review documents provided at least 48 hours prior."
+    ],
+    "response": "Board members must attend meetings and review the documents at least 48 hours before the meeting.",
+    "label": 0
+  },
+  {
+    "query": "What is required of board members regarding meeting documents?",
+    "context": [
+      "Board members must attend meetings and review documents provided at least 48 hours prior."
+    ],
+    "response": "They only need to review documents if they are in the minority.",
+    "label": 1
+  },
+  {
+    "query": "Does the business judgment rule protect directors who act with gross negligence?",
+    "context": [
+      "The rule does not protect directors who act with gross negligence or intentional misconduct."
+    ],
+    "response": "No, it does not protect directors who act with gross negligence or intentional misconduct.",
+    "label": 0
+  },
+  {
+    "query": "Does the business judgment rule protect directors who act with gross negligence?",
+    "context": [
+      "The rule does not protect directors who act with gross negligence or intentional misconduct."
+    ],
+    "response": "It protects them even if they act with gross negligence.",
+    "label": 1
+  },
+  {
+    "query": "When does insider trading violate fiduciary duty?",
+    "context": [
+      "Insider trading violates fiduciary duty unless the insider obtains public disclosure of the material information."
+    ],
+    "response": "Insider trading violates fiduciary duty unless the material information is publicly disclosed.",
+    "label": 0
+  },
+  {
+    "query": "When does insider trading violate fiduciary duty?",
+    "context": [
+      "Insider trading violates fiduciary duty unless the insider obtains public disclosure of the material information."
+    ],
+    "response": "Insider trading is allowed if the insider is a senior executive.",
+    "label": 1
+  },
+  {
+    "query": "When must directors consider creditors' interests?",
+    "context": [
+      "The fiduciary duty is primarily to shareholders, but directors must also consider the interests of creditors when the corporation is insolvent."
+    ],
+    "response": "Directors must consider creditors' interests when the corporation is insolvent.",
+    "label": 0
+  },
+  {
+    "query": "When must directors consider creditors' interests?",
+    "context": [
+      "The fiduciary duty is primarily to shareholders, but directors must also consider the interests of creditors when the corporation is insolvent."
+    ],
+    "response": "Directors need not consider creditors under any circumstances.",
+    "label": 1
+  },
+  {
+    "query": "What is the board's duty in appointing auditors?",
+    "context": [
+      "The board is required to appoint an independent external auditor and must approve the auditor's compensation."
+    ],
+    "response": "The board must appoint an independent external auditor and approve their compensation.",
+    "label": 0
+  },
+  {
+    "query": "What is the board's duty in appointing auditors?",
+    "context": [
+      "The board is required to appoint an independent external auditor and must approve the auditor's compensation."
+    ],
+    "response": "The board can appoint an auditor who is also a company officer.",
+    "label": 1
+  },
+  {
+    "query": "Does the clause impose a duty of care on the party?",
+    "context": [
+      "A party shall exercise reasonable care to avoid foreseeable injury."
+    ],
+    "response": "Yes, the clause imposes a duty of care on the party to exercise reasonable care to avoid foreseeable injury.",
+    "label": 0
+  },
+  {
+    "query": "Does the clause impose a duty of care on the party?",
+    "context": [
+      "A party shall exercise reasonable care to avoid foreseeable injury."
+    ],
+    "response": "No, the clause only imposes a duty of care on third parties, not on the party itself.",
+    "label": 1
+  },
+  {
+    "query": "Does indemnification cover claims arising from the Indemnitor's negligence?",
+    "context": [
+      "The Indemnitor shall indemnify the Indemnitee for losses arising from third\u2011party claims."
+    ],
+    "response": "Yes, the indemnification covers losses arising from third\u2011party claims, including those caused by the Indemnitor's negligence.",
+    "label": 0
+  },
+  {
+    "query": "Does indemnification cover claims arising from the Indemnitor's negligence?",
+    "context": [
+      "The Indemnitor shall indemnify the Indemnitee for losses arising from third\u2011party claims."
+    ],
+    "response": "No, indemnification only applies to claims arising from the Indemnitee's own actions, not the Indemnitor's negligence.",
+    "label": 1
+  },
+  {
+    "query": "How long after injury can a claim be filed?",
+    "context": [
+      "Claims for negligence must be filed within two years from the date of the injury."
+    ],
+    "response": "Within two years from the date of the injury.",
+    "label": 0
+  },
+  {
+    "query": "How long after injury can a claim be filed?",
+    "context": [
+      "Claims for negligence must be filed within two years from the date of the injury."
+    ],
+    "response": "Within three years from the date of the injury.",
+    "label": 1
+  },
+  {
+    "query": "Can a plaintiff recover if they are 60% at fault?",
+    "context": [
+      "Damages will be reduced proportionally to the plaintiff's degree of fault, up to a maximum of 50%."
+    ],
+    "response": "No, the plaintiff cannot recover any damages if their fault exceeds 50%.",
+    "label": 0
+  },
+  {
+    "query": "Can a plaintiff recover if they are 60% at fault?",
+    "context": [
+      "Damages will be reduced proportionally to the plaintiff's degree of fault, up to a maximum of 50%."
+    ],
+    "response": "Yes, the plaintiff can recover 40% of the damages, even if their fault is 60%.",
+    "label": 1
+  },
+  {
+    "query": "Is the manufacturer liable for injuries caused by misuse?",
+    "context": [
+      "The manufacturer shall be liable for defects that cause injury during normal use."
+    ],
+    "response": "No, the manufacturer is only liable for injuries that occur during normal use, not for misuse.",
+    "label": 0
+  },
+  {
+    "query": "Is the manufacturer liable for injuries caused by misuse?",
+    "context": [
+      "The manufacturer shall be liable for defects that cause injury during normal use."
+    ],
+    "response": "Yes, the manufacturer is liable for all injuries, regardless of how the product is used.",
+    "label": 1
+  },
+  {
+    "query": "What minimum limit of insurance is required?",
+    "context": [
+      "The contractor must maintain general liability insurance with a minimum limit of $1,000,000."
+    ],
+    "response": "$1,000,000.",
+    "label": 0
+  },
+  {
+    "query": "What minimum limit of insurance is required?",
+    "context": [
+      "The contractor must maintain general liability insurance with a minimum limit of $1,000,000."
+    ],
+    "response": "$500,000.",
+    "label": 1
+  },
+  {
+    "query": "Does indemnity cover claims from subcontractor's negligence?",
+    "context": [
+      "The subcontractor agrees to indemnify the general contractor for any claims arising from the subcontractor's work."
+    ],
+    "response": "Yes, the indemnity covers claims arising from the subcontractor's negligence in its work.",
+    "label": 0
+  },
+  {
+    "query": "Does indemnity cover claims from subcontractor's negligence?",
+    "context": [
+      "The subcontractor agrees to indemnify the general contractor for any claims arising from the subcontractor's work."
+    ],
+    "response": "No, it only covers third\u2011party property damage, not negligence claims.",
+    "label": 1
+  },
+  {
+    "query": "What is the standard of care?",
+    "context": [
+      "The standard of care is that of a reasonable person under similar circumstances."
+    ],
+    "response": "The standard of care is that of a reasonable person under similar circumstances.",
+    "label": 0
+  },
+  {
+    "query": "What is the standard of care?",
+    "context": [
+      "The standard of care is that of a reasonable person under similar circumstances."
+    ],
+    "response": "The standard of care is that of a reasonable professional in the same field.",
+    "label": 1
+  },
+  {
+    "query": "What is the cap on liability?",
+    "context": [
+      "The liability of the provider shall not exceed the total fees paid by the client."
+    ],
+    "response": "The cap on liability is the total fees paid by the client.",
+    "label": 0
+  },
+  {
+    "query": "What is the cap on liability?",
+    "context": [
+      "The liability of the provider shall not exceed the total fees paid by the client."
+    ],
+    "response": "The cap on liability is a flat $100,000 regardless of the fees paid.",
+    "label": 1
+  },
+  {
+    "query": "Does the seller need to warn about unknown defects?",
+    "context": [
+      "The seller has a duty to warn buyers of known defects that could pose a risk."
+    ],
+    "response": "No, the seller only has a duty to warn about known defects, not unknown ones.",
+    "label": 0
+  },
+  {
+    "query": "Does the seller need to warn about unknown defects?",
+    "context": [
+      "The seller has a duty to warn buyers of known defects that could pose a risk."
+    ],
+    "response": "Yes, the seller must warn buyers about all potential defects, known or unknown.",
+    "label": 1
+  },
+  {
+    "query": "Does a short excerpt of a novel used in a classroom lecture qualify as fair use?",
+    "context": [
+      "Under the Copyright Act, a use is considered fair if it is transformative, does not affect the market, and is limited to the amount necessary."
+    ],
+    "response": "Yes, because the excerpt is transformative, does not affect the market, and is limited to the amount necessary.",
+    "label": 0
+  },
+  {
+    "query": "Does a short excerpt of a novel used in a classroom lecture qualify as fair use?",
+    "context": [
+      "Under the Copyright Act, a use is considered fair if it is transformative, does not affect the market, and is limited to the amount necessary."
+    ],
+    "response": "No, because any use of a novel excerpt in a classroom automatically violates copyright.",
+    "label": 1
+  },
+  {
+    "query": "When a claim uses the term 'comprising', how should the claim be interpreted?",
+    "context": [
+      "Patent claims are construed in light of the specification and the drawings, and the claim language must be read in the context of the whole patent."
+    ],
+    "response": "It is open-ended, allowing additional elements beyond those listed.",
+    "label": 0
+  },
+  {
+    "query": "When a claim uses the term 'comprising', how should the claim be interpreted?",
+    "context": [
+      "Patent claims are construed in light of the specification and the drawings, and the claim language must be read in the context of the whole patent."
+    ],
+    "response": "It is closed-ended, meaning no additional elements may be added.",
+    "label": 1
+  },
+  {
+    "query": "How long must the recipient maintain confidentiality under this agreement?",
+    "context": [
+      "The confidentiality agreement requires the recipient to keep all disclosed information confidential for a period of five years from the date of disclosure."
+    ],
+    "response": "Five years from the date of disclosure.",
+    "label": 0
+  },
+  {
+    "query": "How long must the recipient maintain confidentiality under this agreement?",
+    "context": [
+      "The confidentiality agreement requires the recipient to keep all disclosed information confidential for a period of five years from the date of disclosure."
+    ],
+    "response": "Ten years from the date of disclosure.",
+    "label": 1
+  },
+  {
+    "query": "Can a company use a copyrighted song in a commercial advertisement if it is transformed by adding new lyrics?",
+    "context": [
+      "A commercial use of a copyrighted work may still be fair if it is transformative and does not harm the market for the original."
+    ],
+    "response": "Yes, if the new lyrics transform the use and it does not harm the market for the original.",
+    "label": 0
+  },
+  {
+    "query": "Can a company use a copyrighted song in a commercial advertisement if it is transformed by adding new lyrics?",
+    "context": [
+      "A commercial use of a copyrighted work may still be fair if it is transformative and does not harm the market for the original."
+    ],
+    "response": "No, any commercial use of a copyrighted song is automatically not fair use.",
+    "label": 1
+  },
+  {
+    "query": "What standard determines if a patent claim is obvious?",
+    "context": [
+      "A patent claim is invalid if it is obvious to a person having ordinary skill in the art at the time of invention."
+    ],
+    "response": "The obviousness standard applies to a person having ordinary skill in the art at the time of invention.",
+    "label": 0
+  },
+  {
+    "query": "What standard determines if a patent claim is obvious?",
+    "context": [
+      "A patent claim is invalid if it is obvious to a person having ordinary skill in the art at the time of invention."
+    ],
+    "response": "The obviousness standard applies to any person, regardless of skill level.",
+    "label": 1
+  },
+  {
+    "query": "Which of the following actions constitutes misappropriation of a trade secret?",
+    "context": [
+      "Misappropriation occurs when a person obtains a trade secret through theft, bribery, misrepresentation, or breach of a duty of confidentiality."
+    ],
+    "response": "Obtaining a trade secret through a breach of a duty of confidentiality.",
+    "label": 0
+  },
+  {
+    "query": "Which of the following actions constitutes misappropriation of a trade secret?",
+    "context": [
+      "Misappropriation occurs when a person obtains a trade secret through theft, bribery, misrepresentation, or breach of a duty of confidentiality."
+    ],
+    "response": "Using a trade secret in a different industry is misappropriation.",
+    "label": 1
+  },
+  {
+    "query": "Does using 10% of a copyrighted book weigh against fair use?",
+    "context": [
+      "Under 17 U.S.C. \u00a7 107, the amount and substantiality of the portion used is a factor in determining fair use."
+    ],
+    "response": "Yes, using 10% can weigh against fair use if it is a substantial portion.",
+    "label": 0
+  },
+  {
+    "query": "Does using 10% of a copyrighted book weigh against fair use?",
+    "context": [
+      "Under 17 U.S.C. \u00a7 107, the amount and substantiality of the portion used is a factor in determining fair use."
+    ],
+    "response": "No, because 10% is always considered a small amount and therefore favors fair use.",
+    "label": 1
+  },
+  {
+    "query": "Can a claim be interpreted to cover a feature not expressly mentioned in the claim language?",
+    "context": [
+      "The scope of a claim is limited to the language of the claim and the technical features it describes."
+    ],
+    "response": "No, the claim cannot cover features not expressly mentioned in the claim language.",
+    "label": 0
+  },
+  {
+    "query": "Can a claim be interpreted to cover a feature not expressly mentioned in the claim language?",
+    "context": [
+      "The scope of a claim is limited to the language of the claim and the technical features it describes."
+    ],
+    "response": "Yes, if the feature is described in the specification, it can be included.",
+    "label": 1
+  },
+  {
+    "query": "Does reproducing a 50-word excerpt of a copyrighted work for a blog post critique qualify as fair use under Section 107 of the Copyright Act?",
+    "context": [
+      "Under Section 107 of the Copyright Act, the user may reproduce a short excerpt of a copyrighted work for purposes of criticism or commentary, provided that the use is \"transformative\" and does not affect the market value of the original."
+    ],
+    "response": "Yes, because the excerpt is short, used for criticism, and is transformative, so it meets the four factors.",
+    "label": 0
+  },
+  {
+    "query": "Does reproducing a 50-word excerpt of a copyrighted work for a blog post critique qualify as fair use under Section 107 of the Copyright Act?",
+    "context": [
+      "Under Section 107 of the Copyright Act, the user may reproduce a short excerpt of a copyrighted work for purposes of criticism or commentary, provided that the use is \"transformative\" and does not affect the market value of the original."
+    ],
+    "response": "No, because the excerpt is more than 20% of the original, violating the statutory threshold.",
+    "label": 1
+  },
+  {
+    "query": "Does a device that omits the \"sensing unit\" but performs the same function infringe the patent claim?",
+    "context": [
+      "A product infringes a patent claim if it contains every element of the claim, either literally or under the doctrine of equivalents."
+    ],
+    "response": "No, because the claim requires the sensing unit; omission means no infringement.",
+    "label": 0
+  },
+  {
+    "query": "Does a device that omits the \"sensing unit\" but performs the same function infringe the patent claim?",
+    "context": [
+      "A product infringes a patent claim if it contains every element of the claim, either literally or under the doctrine of equivalents."
+    ],
+    "response": "Yes, because the device performs the same function, invoking the doctrine of equivalents.",
+    "label": 1
+  },
+  {
+    "query": "What is the required notice period before the receiving party can disclose confidential information to a third party?",
+    "context": [
+      "The Confidential Information clause requires the receiving party to use at least reasonable care, defined as a 30-day written notice to the disclosing party before disclosing to a third party."
+    ],
+    "response": "30 days.",
+    "label": 0
+  },
+  {
+    "query": "What is the required notice period before the receiving party can disclose confidential information to a third party?",
+    "context": [
+      "The Confidential Information clause requires the receiving party to use at least reasonable care, defined as a 30-day written notice to the disclosing party before disclosing to a third party."
+    ],
+    "response": "Immediate disclosure is allowed if the information is public domain.",
+    "label": 1
+  },
+  {
+    "query": "Does the indemnification clause require the Contractor to indemnify the Owner for claims arising from the Contractor's negligence?",
+    "context": [
+      "The Contractor shall indemnify and hold harmless the Owner against any claims arising from the Contractor's negligence."
+    ],
+    "response": "Yes, the clause requires indemnification for claims arising from the Contractor's negligence.",
+    "label": 0
+  },
+  {
+    "query": "Does the indemnification clause require the Contractor to indemnify the Owner for claims arising from the Contractor's negligence?",
+    "context": [
+      "The Contractor shall indemnify and hold harmless the Owner against any claims arising from the Contractor's negligence."
+    ],
+    "response": "No, the clause only requires indemnification for third\u2011party claims, not for the Contractor's own negligence.",
+    "label": 1
+  },
+  {
+    "query": "What standard of conduct is used to evaluate the Defendant's negligence in the clause?",
+    "context": [
+      "The Defendant's conduct must be compared to that of a reasonable person in the same circumstances."
+    ],
+    "response": "The standard is the reasonable person in the same circumstances.",
+    "label": 0
+  },
+  {
+    "query": "What standard of conduct is used to evaluate the Defendant's negligence in the clause?",
+    "context": [
+      "The Defendant's conduct must be compared to that of a reasonable person in the same circumstances."
+    ],
+    "response": "The standard is the specialized industry standard for that profession.",
+    "label": 1
+  },
+  {
+    "query": "Does the indemnifying party owe indemnification for negligence claims?",
+    "context": [
+      "The indemnifying party shall indemnify, defend and hold harmless the Indemnitee from any and all claims, damages, liabilities, costs and expenses (including reasonable attorneys' fees) arising out of or related to the Indemnifying Party's negligence."
+    ],
+    "response": "Yes, the indemnifying party owes indemnification for negligence claims.",
+    "label": 0
+  },
+  {
+    "query": "Does the indemnifying party owe indemnification for negligence claims?",
+    "context": [
+      "The indemnifying party shall indemnify, defend and hold harmless the Indemnitee from any and all claims, damages, liabilities, costs and expenses (including reasonable attorneys' fees) arising out of or related to the Indemnifying Party's negligence."
+    ],
+    "response": "No, indemnification applies only to contractual breaches.",
+    "label": 1
+  },
+  {
+    "query": "What is the standard for negligence liability?",
+    "context": [
+      "Under the statute, a party is liable for negligence if it fails to exercise reasonable care in the performance of its duties."
+    ],
+    "response": "The standard is the failure to exercise reasonable care in performance of duties.",
+    "label": 0
+  },
+  {
+    "query": "What is the standard for negligence liability?",
+    "context": [
+      "Under the statute, a party is liable for negligence if it fails to exercise reasonable care in the performance of its duties."
+    ],
+    "response": "Liability arises only if there is actual damage.",
+    "label": 1
+  },
+  {
+    "query": "Does the indemnifying party cover willful misconduct?",
+    "context": [
+      "The indemnification clause specifies that the indemnifying party shall be responsible for any third\u2011party claims arising from the Indemnifying Party's acts or omissions that constitute negligence or willful misconduct."
+    ],
+    "response": "Yes, the indemnifying party covers willful misconduct.",
+    "label": 0
+  },
+  {
+    "query": "Does the indemnifying party cover willful misconduct?",
+    "context": [
+      "The indemnification clause specifies that the indemnifying party shall be responsible for any third\u2011party claims arising from the Indemnifying Party's acts or omissions that constitute negligence or willful misconduct."
+    ],
+    "response": "No, it covers only negligence.",
+    "label": 1
+  },
+  {
+    "query": "What is the notice requirement for indemnification?",
+    "context": [
+      "The contract states: 'The Indemnifying Party shall indemnify the Indemnitee for any damages resulting from the Indemnifying Party's negligence, provided that the Indemnifying Party has not been notified of the claim within 30 days of its occurrence.'"
+    ],
+    "response": "The indemnifying party must be notified within 30 days of the claim's occurrence.",
+    "label": 0
+  },
+  {
+    "query": "What is the notice requirement for indemnification?",
+    "context": [
+      "The contract states: 'The Indemnifying Party shall indemnify the Indemnitee for any damages resulting from the Indemnifying Party's negligence, provided that the Indemnifying Party has not been notified of the claim within 30 days of its occurrence.'"
+    ],
+    "response": "There is no notice requirement; indemnification is automatic.",
+    "label": 1
+  },
+  {
+    "query": "What elements must a plaintiff prove in a negligence claim?",
+    "context": [
+      "In tort law, the plaintiff must establish duty, breach, causation, and damages to recover damages for negligence."
+    ],
+    "response": "Duty, breach, causation, and damages.",
+    "label": 0
+  },
+  {
+    "query": "What elements must a plaintiff prove in a negligence claim?",
+    "context": [
+      "In tort law, the plaintiff must establish duty, breach, causation, and damages to recover damages for negligence."
+    ],
+    "response": "Only breach and damages.",
+    "label": 1
+  },
+  {
+    "query": "Does the clause cover acts outside the scope of the indemnifying party's contractual obligations?",
+    "context": [
+      "The indemnification clause is limited to claims arising from acts that are within the scope of the indemnifying party's contractual obligations."
+    ],
+    "response": "No, it does not cover acts outside that scope.",
+    "label": 0
+  },
+  {
+    "query": "Does the clause cover acts outside the scope of the indemnifying party's contractual obligations?",
+    "context": [
+      "The indemnification clause is limited to claims arising from acts that are within the scope of the indemnifying party's contractual obligations."
+    ],
+    "response": "Yes, it covers all acts regardless of scope.",
+    "label": 1
+  },
+  {
+    "query": "Is foreseeability required for negligence liability under the statute?",
+    "context": [
+      "The statute provides that a defendant is liable for negligence only if the injury was foreseeable."
+    ],
+    "response": "Yes, foreseeability is required.",
+    "label": 0
+  },
+  {
+    "query": "Is foreseeability required for negligence liability under the statute?",
+    "context": [
+      "The statute provides that a defendant is liable for negligence only if the injury was foreseeable."
+    ],
+    "response": "No, foreseeability is not required.",
+    "label": 1
+  },
+  {
+    "query": "What is the notice period for the indemnifying party to defend a claim?",
+    "context": [
+      "The indemnifying party must provide written notice of the claim within 10 days and may defend the claim at its own expense."
+    ],
+    "response": "10 days.",
+    "label": 0
+  },
+  {
+    "query": "What is the notice period for the indemnifying party to defend a claim?",
+    "context": [
+      "The indemnifying party must provide written notice of the claim within 10 days and may defend the claim at its own expense."
+    ],
+    "response": "30 days.",
+    "label": 1
+  },
+  {
+    "query": "What standard of proof applies to claims covered by the indemnification provision?",
+    "context": [
+      "The indemnification provision states that the indemnifying party shall pay all costs, including attorney fees, but only if the claim is proven by a preponderance of evidence."
+    ],
+    "response": "Preponderance of evidence.",
+    "label": 0
+  },
+  {
+    "query": "What standard of proof applies to claims covered by the indemnification provision?",
+    "context": [
+      "The indemnification provision states that the indemnifying party shall pay all costs, including attorney fees, but only if the claim is proven by a preponderance of evidence."
+    ],
+    "response": "Clear and convincing evidence.",
+    "label": 1
+  },
+  {
+    "query": "Does contributory negligence bar recovery in a negligent act that causes injury?",
+    "context": [
+      "Under common law, a negligent act that causes injury is actionable, but the defendant must show that the plaintiff was not contributory negligent."
+    ],
+    "response": "If the plaintiff was contributory negligent, it can bar recovery.",
+    "label": 0
+  },
+  {
+    "query": "Does contributory negligence bar recovery in a negligent act that causes injury?",
+    "context": [
+      "Under common law, a negligent act that causes injury is actionable, but the defendant must show that the plaintiff was not contributory negligent."
+    ],
+    "response": "Contributory negligence never bars recovery.",
+    "label": 1
+  },
+  {
+    "query": "Under the SEC, what constitutes a material change that requires disclosure within 30 days?",
+    "context": [
+      "The Company shall disclose any material change in its financial condition within 30 days after such change."
+    ],
+    "response": "A material change is any change in financial condition that would likely influence an investor's decision.",
+    "label": 0
+  },
+  {
+    "query": "Under the SEC, what constitutes a material change that requires disclosure within 30 days?",
+    "context": [
+      "The Company shall disclose any material change in its financial condition within 30 days after such change."
+    ],
+    "response": "A material change is any change that causes the company's market capitalization to fluctuate by more than 5%.",
+    "label": 1
+  },
+  {
+    "query": "Does the business judgment rule protect decisions made by directors in the ordinary course of business?",
+    "context": [
+      "The directors shall act in good faith and with due care, and any decision made in the ordinary course of business shall be protected by the business judgment rule. This protection applies regardless of the outcome of the decision."
+    ],
+    "response": "Yes, it protects any decision made in the ordinary course of business.",
+    "label": 0
+  },
+  {
+    "query": "Does the business judgment rule protect decisions made by directors in the ordinary course of business?",
+    "context": [
+      "The directors shall act in good faith and with due care, and any decision made in the ordinary course of business shall be protected by the business judgment rule. This protection applies regardless of the outcome of the decision."
+    ],
+    "response": "Only protects decisions that result in a profitable outcome, not losses.",
+    "label": 1
+  },
+  {
+    "query": "What duty do directors have regarding personal financial interests under Section 8(a)?",
+    "context": [
+      "Under Section 8(a) of the Corporate Governance Code, a fiduciary duty requires directors to avoid conflicts of interest and to disclose any personal financial interest. This duty applies to all directors regardless of their role."
+    ],
+    "response": "Directors must avoid conflicts of interest and disclose any personal financial interest.",
+    "label": 0
+  },
+  {
+    "query": "What duty do directors have regarding personal financial interests under Section 8(a)?",
+    "context": [
+      "Under Section 8(a) of the Corporate Governance Code, a fiduciary duty requires directors to avoid conflicts of interest and to disclose any personal financial interest. This duty applies to all directors regardless of their role."
+    ],
+    "response": "Directors must only disclose personal financial interests if they exceed $10,000.",
+    "label": 1
+  },
+  {
+    "query": "Under the indemnification clause, how long does the Buyer have to notify the Supplier of a claim to trigger indemnification?",
+    "context": [
+      "The Supplier shall indemnify and hold harmless the Buyer from any claim, demand, or liability arising out of the Supplier's negligence, provided that the Buyer promptly notifies the Supplier in writing within 30 days of becoming aware of such claim."
+    ],
+    "response": "30 days",
+    "label": 0
+  },
+  {
+    "query": "Under the indemnification clause, how long does the Buyer have to notify the Supplier of a claim to trigger indemnification?",
+    "context": [
+      "The Supplier shall indemnify and hold harmless the Buyer from any claim, demand, or liability arising out of the Supplier's negligence, provided that the Buyer promptly notifies the Supplier in writing within 30 days of becoming aware of such claim."
+    ],
+    "response": "60 days",
+    "label": 1
+  },
+  {
+    "query": "What standard determines negligence according to the Restatement (Second) of Torts?",
+    "context": [
+      "Under the Restatement (Second) of Torts \u00a7 2.01, a party is liable for negligence if it fails to exercise the care that a reasonably prudent person would exercise in like circumstances."
+    ],
+    "response": "The care that a reasonably prudent person would exercise in like circumstances",
+    "label": 0
+  },
+  {
+    "query": "What standard determines negligence according to the Restatement (Second) of Torts?",
+    "context": [
+      "Under the Restatement (Second) of Torts \u00a7 2.01, a party is liable for negligence if it fails to exercise the care that a reasonably prudent person would exercise in like circumstances."
+    ],
+    "response": "The care that a reasonably prudent person would exercise in different circumstances",
+    "label": 1
+  },
+  {
+    "query": "When is the landlord liable for injuries caused by a tenant's guest?",
+    "context": [
+      "The landlord shall not be liable for injuries caused by a tenant's guests unless the landlord knew or should have known of the hazardous condition."
+    ],
+    "response": "If the landlord knew or should have known of the hazardous condition",
+    "label": 0
+  },
+  {
+    "query": "When is the landlord liable for injuries caused by a tenant's guest?",
+    "context": [
+      "The landlord shall not be liable for injuries caused by a tenant's guests unless the landlord knew or should have known of the hazardous condition."
+    ],
+    "response": "If the tenant invites a guest, the landlord is liable regardless of knowledge",
+    "label": 1
+  },
+  {
+    "query": "Which statutory penalties is the Contractor indemnifying against?",
+    "context": [
+      "The Contractor shall indemnify the Owner against any penalties imposed by the State for violations of the Clean Air Act, provided the Owner has complied with all applicable environmental regulations."
+    ],
+    "response": "Penalties imposed by the State for violations of the Clean Air Act",
+    "label": 0
+  },
+  {
+    "query": "Which statutory penalties is the Contractor indemnifying against?",
+    "context": [
+      "The Contractor shall indemnify the Owner against any penalties imposed by the State for violations of the Clean Air Act, provided the Owner has complied with all applicable environmental regulations."
+    ],
+    "response": "Penalties imposed by the State for any environmental law violations",
+    "label": 1
+  }
+]

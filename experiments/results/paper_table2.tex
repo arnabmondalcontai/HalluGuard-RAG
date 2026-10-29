@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Ablation Study of Router Strategies}
+\label{tab:ablation_results}
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Configuration} & \textbf{Halluc %} & \textbf{Faithfulness} & \textbf{AUROC} & \textbf{F1} & \textbf{Latency (ms)} & \textbf{Faithfulness Imp %} \\
+\hline
+Baseline RAG & 57.0\% & 0.4312 & 0.7800 & 0.7014 & 103.9 & 0.0\% \\
+NLI detector only & 57.0\% & 0.4312 & 0.7800 & 0.7014 & 103.9 & 0.0\% \\
+Ensemble + fixed rewrite & 40.0\% & 0.5904 & 0.7160 & 0.5650 & 15166.4 & +36.9\% \\
+Ensemble + fixed self-reflect & 27.0\% & 0.6004 & 0.6522 & 0.4238 & 66209.4 & +39.2\% \\
+\textbf{HalluGuard (adaptive router)} & \textbf{30.5\%} & \textbf{0.6311} & \textbf{0.7022} & \textbf{0.5063} & \textbf{19554.7} & \textbf{+46.4\%} \\
+\hline
+\end{tabular}
+\end{table}

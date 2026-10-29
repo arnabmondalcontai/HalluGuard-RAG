@@ -1,0 +1,23 @@
+# Baseline RAG Configuration
+# ==========================
+# NLI-only detector with hybrid retriever
+
+experiment_name: baseline_rag
+retriever:
+  type: hybrid
+  top_k: 5
+  dense_model: sentence-transformers/all-MiniLM-L6-v2
+  bm25_weight: 0.3
+  dense_weight: 0.7
+generator:
+  model: llama3-8b-8192
+  temperature: 0.1
+  max_tokens: 512
+detector:
+  type: nli_only
+  model: cross-encoder/nli-deberta-v3-base
+  threshold: 0.5
+evaluation:
+  datasets: [halueval, truthfulqa]
+  n_samples: 500
+  metrics: [faithfulness, auroc, f1, latency]
